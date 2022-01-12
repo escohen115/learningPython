@@ -44,4 +44,9 @@ simcha.happy()
 simcha.greet()
 
 
-
+i = 0
+for i in range(6):
+    if i % 2 == 0:
+        print(f"{i} is even")
+    if i % 2 != 0:
+        print(f"{i} is odd")
