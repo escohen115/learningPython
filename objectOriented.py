@@ -12,6 +12,7 @@ x.left = y
 x.right = z
 
 class Solution:
+
     def invertTree(self, root):
        
         if root == None:
@@ -27,7 +28,16 @@ class Solution:
         
 
 solution = Solution()
-print(solution)
 print(solution.invertTree(x).right.val)
 
 
+class Person:
+
+    def __init__(self,name):
+        self.name = name
+
+    def smile(self):
+        print(f'i am {self.name} cheese') 
+
+sam = Person('sam')
+sam.smile()
