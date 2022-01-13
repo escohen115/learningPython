@@ -13,18 +13,6 @@ x.right = z
 
 
 
-class Person:
-
-    def __init__(self,name):
-        self.name = name
-
-    def smile(self):
-        print(f'i am {self.name} cheese') 
-
-sam = Person('sam')
-sam.smile()
-
-
 class Solution:
 
     def invertTree(self, root):
@@ -45,5 +33,6 @@ solution = Solution()
 print(solution.invertTree(x).right.val)
 
 
+    
     
     
