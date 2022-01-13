@@ -50,3 +50,8 @@ for i in range(6):
         print(f"{i} is even")
     if i % 2 != 0:
         print(f"{i} is odd")
+
+
+
+
+
