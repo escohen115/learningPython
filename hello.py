@@ -14,7 +14,6 @@ print("hello world")
 # myfunc()
 
 
-
 def myfunc():
   global x
   x = "fantastic"
@@ -22,7 +21,6 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
-
 
 
 class Person: 
@@ -50,3 +48,19 @@ for i in range(6):
         print(f"{i} is even")
     if i % 2 != 0:
         print(f"{i} is odd")
+
+import random
+
+print(random.randrange(1, 10))
+
+
+a = """this
+and 
+that"""
+
+print (a)
+
+a = "Hello, World!"
+print(a[1])
+
+
