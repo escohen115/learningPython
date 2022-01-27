@@ -12,3 +12,22 @@ function myfunc(x) {
 
 
 myfunc(x)
+
+
+
+class Node{
+    constructor(value){
+        this.value = value
+        this.left = null
+        this.right = null
+    }
+}
+
+class BST{
+    constructor(){
+        this.root = null
+    }
+}
+
+let tree = new BST();
+tree.root = new Node(10)
