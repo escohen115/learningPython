@@ -32,11 +32,19 @@ class Solution:
 solution = Solution()
 print(solution.invertTree(x).right.val)
 
-
-    
-    
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> fff4de4cd16022f636fcc2c59d0fc1bbf47dde11
+# reverse a linked list
+class Solution(object):
+    def reverseList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        prev = None
+        current = head
+        while(current):
+            next = current.next
+            current.next = prev
+            prev = current
+            current = next
+        head = prev
+        return head
